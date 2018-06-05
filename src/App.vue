@@ -12,6 +12,7 @@
     <Cases></Cases>
     <allies></allies>
     <Footer></Footer>
+    <Author></Author>
 
 
 
@@ -32,6 +33,7 @@ import Us from './components/Us'
 import Cases from './components/Cases'
 import Allies from './components/Allies'
 import Footer from './components/footer'
+import Author from './components/Author'
 
 
 import axios from 'axios'
@@ -42,7 +44,7 @@ export default {
 
 
   name: 'app',
-  components: {TempHeader, Banner, Prestamo,Login,Function,Facebook,Us,Cases,Allies,Footer},
+  components: {TempHeader, Banner, Prestamo,Login,Function,Facebook,Us,Cases,Allies,Footer,Author},
   mounted(){
     this.getData()
   },

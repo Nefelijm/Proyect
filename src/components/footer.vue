@@ -10,15 +10,15 @@
                <a href="/nosotros" target="_blank" style="color: #fff !important; border-bottom: 1px solid rgba(255,255,255,0.7); text-decoration: none !important; padding-bottom: 3px;">aquí</a>.</p>
 							<div class="icons">
 								<div class="icon">
-									<div><img src="/images/icono_direccion_footer.png"></div>
-									<p>{{direccion}}<br>Miraflores, Lima</p>
+									<div><img src="../assets/icono_direccion_footer.png"></div>
+									<p>{{direccion}}<br>{{distrito}}</p>
 								</div>
 								<div class="icon">
-									<div><img src="/images/icono_correo_footer.png"></div>
-									<p>info@prestamype.com</p>
+									<div><img src="../assets/icono_correo_footer.png"></div>
+									<p>{{informacion}}</p>
 								</div>
 								<div class="icon">
-									<div><img src="/images/icono_telefono_footer.png"></div>
+									<div><img src="../assets/icono_telefono_footer.png"></div>
 									<p>(01) 223 - 5912</p>
 								</div>
 							</div>
@@ -50,6 +50,9 @@ export default {
   data (){
     return{
       direccion:'Calle Martir Olaya 129 Of 1304',
+      distrito:'Miraflores, Lima',
+      informacion:'info@prestamype.com',
+      mapa:'MAPA DEL SITIO',
 
 
     }
