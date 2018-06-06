@@ -1,10 +1,15 @@
 <template>
    <div class="login text-right">
+    <div>
       <a class="signin">{{ingresar}}</a>
      	<a class="logo-facebook" href="https://www.facebook.com/Prestamype/" target="_blank" alt="facebook">
 	    <img src="../assets/1facebook.png">
 	    </a>
-   </div>
+     </div>
+  </div>
+
+
+
 
 </template>
 <script>
@@ -46,6 +51,21 @@ export default {
       top: 2px;
       letter-spacing: .2px;
       margin-right: 2%;
+    }
+
+    @media (max-width: 792px) {
+
+      .signin {
+
+        letter-spacing: .2px;
+         margin-right: 5%;
+      }
+      .login{
+         padding-right:50px;
+         padding-left: 15px;
+      }
+
+
     }
 </style>
 

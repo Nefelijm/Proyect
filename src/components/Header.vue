@@ -2,13 +2,26 @@
     <!-- creacion de nuestro componnent header
      -->
         <header class="header-dash" id="header">
-            <!-- <div class="title-dash">Prestamype</div> -->
-            <img class="title-dash" src="../assets/2logo-prestamype-blanco.png" alt="logo">
+          <nav>
+            <a href=""><img class="title-dash" src="../assets/2logo-prestamype-blanco.png" alt="logo"></a>
             <ul class="menu-dash">
-                <li>NOSOTROS</li>
-                <li>PREGUNTAS FRECUENTES</li>
-                <li>ARTICULOS</li>
+              <b>
+                <a class="linea" href=""><li>NOSOTROS</li></a>
+                <a class="linea" href=""><li>PREGUNTAS FRECUENTES</li></a>
+                <a class="linea" href=""><li>ARTICULOS</li></a>
+              </b>
             </ul>
+           </nav>
+           <!-- <nav class="nav-2">
+            <a href=""><img class="title-dash" src="../assets/2logo-prestamype-blanco.png" alt="logo"></a>
+            <ul class="menu-dash">
+              <b>
+                <a href=""><li>NOSOTROS</li></a>
+                <a href=""><li>PREGUNTAS FRECUENTES</li></a>
+                <a href=""><li>ARTICULOS</li></a>
+              </b>
+            </ul>
+           </nav> -->
         </header>
 </template>
 
@@ -21,7 +34,7 @@
 </script>
 
 <style lang="scss">
-
+ @import 'node_modules/bootstrap/scss/bootstrap.scss';
     .header-dash{
         height: 70px;
         width: 100%;
@@ -33,10 +46,9 @@
        .title-dash{
          margin-left: 90px;
          margin-top: 28px;
-         width: 200px;
+         width: 180px;
 
         }
-
        .menu-dash {
             position: absolute;
             top: 43px;
@@ -44,9 +56,19 @@
             color:white;
 
         }
-        li{
+        .linea{
+          text-decoration: none;
+        }
+        li:hover {
+           color: #0067a3 !important;
+        }
+        li {
            display: inline;
            margin-left: 20px;
+           margin-right: 30px;
+           font-size: 15px;
+           border-color: transparent;
+           color: white;
         }
     }
 

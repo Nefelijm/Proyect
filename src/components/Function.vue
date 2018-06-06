@@ -132,9 +132,24 @@ export default {
 .flecha {
   width: 100%;
 
+}
 
+@media (max-width: 792px){
+   .minititle{
+				font-size: 20px;
+        margin-bottom: 25px;
+        padding: 0px 15px;
+  }
+  .flecha{
+				display:none;
+		}
+  .flech{
+				display:block;
+		}
 
 }
+
+
 
 </style>
 

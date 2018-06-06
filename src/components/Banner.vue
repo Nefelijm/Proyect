@@ -4,13 +4,13 @@
     <div class="banner">
         <h1 class="title">{{titulo}} <br/> {{titulo2}} </h1>
         <div class="row bg">
-					<div class="col-md-3 offset-md-3 text-center">
+					<div class="col-sm-3	col-md-3	col-lg-3  offset-md-3  offset-sm-3 offset-lg-3  text-center">
 								<div class="pres">
 								<div><img src="../assets/prestamo.png"></div>
 								<a class="abutton prestamo" href="/prestamos" onclick="dataLayer.push({'Interact':true,'Prestamo':true})"><span class="hidden-xs">QUIERO UN </span>PRÉSTAMO</a>
 								</div>
 					</div>
-						<div class="col-md-3 text-center">
+						<div class="col-md-3 col-sm-3 col-lg-3">
 								<div class="inv">
 								<div><img src="../assets/inversion.png"></div>
 								<a class="abutton inversion" href="/invertir" onclick="dataLayer.push({'Interact':true,'Inversion':true})"><span class="hidden-xs">QUIERO </span>INVERTIR</a>
@@ -83,14 +83,14 @@ export default {
         margin-top: 15px;
         font-size: 18px;
         border: 0;
-        width: 85%;
+        width: 90%;
         padding: 10px 0;
         font-weight: 700;
         display: inline-block;
         color: #fff!important;
         text-decoration: none!important;
         cursor: pointer;
-        letter-spacing: .2px;
+        letter-spacing: .1px;
         border-radius: 5px;
     }
     .inv .abutton {
@@ -98,9 +98,9 @@ export default {
     }
     .inv .abutton, .pres .abutton {
         margin-top: 15px;
-        font-size: 18px;
+        font-size: 19px;
         border: 0;
-        width: 85%;
+        width: 90%;
         padding: 10px 0;
         font-weight: 700;
         display: inline-block;
@@ -113,6 +113,32 @@ export default {
      .bg{
        margin-left: 0px;
        margin-right: 0px;
+     }
+
+     @media (max-width: 792px){
+       .title{
+        font-size: 25px;
+        font-weight: 650;
+        letter-spacing: .8px;
+        }
+
+      .butbox > div{
+       padding: 3px;
+       }
+
+       .inv .abutton, .pres .abutton {
+        margin-top: 15px;
+        font-size: 19px;
+        width: 55%;
+        padding: 10px 0;
+        font-weight: 500;
+        display: inline-block;
+        color: #fff!important;
+        text-decoration: none!important;
+        cursor: pointer;
+        letter-spacing: .2px;
+        border-radius: 5px;
+     }
      }
 
 
