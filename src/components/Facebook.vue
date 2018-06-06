@@ -25,7 +25,7 @@ export default {
 
 
   .bgfacebook{
-        height:150px;
+        height:230px;
         position: relative;
         text-align: center;
         background-image: url("../assets/separador.jpg");
@@ -50,7 +50,8 @@ export default {
   font-weight: 700;
   letter-spacing: .3px;
   color: white;
-  margin-top:50px;
+  padding-top:80px;
+  padding-bottom: 80px;
 }
 
 </style>

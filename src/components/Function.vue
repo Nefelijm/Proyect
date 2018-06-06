@@ -10,21 +10,23 @@
 									<div class="funciona">
 										<div class="row rel">
 											<div class="flechabox"><img class="flecha" src="../assets/flecha-fintech.png"></div>
-											<div class="col-md-4 hidden-xs"><div class="fotoemp"><img src="../assets/empresario.png"></div></div>
-											<div class="col-md-4 hidden-xs"></div>
-											<div class="col-md-4 hidden-xs"><div class="fotoinv"><img src="../assets/inversionista.png"></div></div>
+											<div class="col-md-4 invisi"><div class="fotoemp"><img src="../assets/empresario.png"></div></div>
+											<div class="col-md-4 invisi"></div>
+											<div class="col-md-4 invisi"><div class="fotoinv"><img src="../assets/inversionista.png"></div></div>
 										</div>
 										<div class="row line">
 											<div class="col-sm-4 soli">
 												<div class="des">
 													<div class="subtitle">{{empresario}}</div>
 													<p>{{edescription}}</p>
+                          <div class="flech"><img src="../assets/flechas.png"></div>
 												</div>
 											</div>
 											<div class="col-sm-4 soli">
 												<div class="des whit">
 													<div class="subtitle">{{prestamype}}</div>
 													<p>{{pdescription}}</p>
+                          <div class="flech"><img src="../assets/flechas.png"></div>
 												</div>
 											</div>
 											<div class="col-sm-4 soli">
@@ -65,11 +67,12 @@ export default {
   background-color: rgb(243, 239, 239);
   }
   .minititle {
-  margin-top: 10px;
-  font-size: 30px;
-  font-weight: 450;
-  margin-bottom: 40px;
+   margin-top: 10px;
+   font-size: 30px;
+   font-weight: 450px;
+   margin-bottom:40px;
   }
+
   .bgline {
    height: 3px;
    border-radius: 30%;
@@ -146,6 +149,9 @@ export default {
   .flech{
 				display:block;
 		}
+   .invisi{
+    display:none;
+    }
 
 }
 

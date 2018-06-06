@@ -3,7 +3,7 @@
     <!-- creacion de nuestro component banner -->
     <div class="banner">
         <h1 class="title">{{titulo}} <br/> {{titulo2}} </h1>
-        <div class="row bg">
+          <div class="row bg">
 					<div class="col-sm-3	col-md-3	col-lg-3  offset-md-3  offset-sm-3 offset-lg-3  text-center">
 								<div class="pres">
 								<div><img src="../assets/prestamo.png"></div>
@@ -17,6 +17,7 @@
 								</div>
 						</div>
 				</div>
+
     </div>
 
 </template>
