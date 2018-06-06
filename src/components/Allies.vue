@@ -24,6 +24,26 @@ export default {
 </script>
 <style>
 
+   .whitebg{
+		background:#fff;
+   }
+  .whitebg *{
+		color:black;
+   }
+   .minititle{
+		font-size: 34px;
+		font-weight: 430;
+		margin-bottom: 40px;
+    }
+   .imgbox{
+		margin: 60px 0;
+
+  }
+  .imgbox img{
+		max-width:250px;
+		margin:0px 15px;
+  }
+
 
 </style>
 

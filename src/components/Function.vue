@@ -3,7 +3,7 @@
       <div class="whitebg text-center">
 						<div class="container">
 								<div class="boxfun">
-									<div class="minititle">
+									<div  class="minititle">
 										<div>{{funciona}}</div>
 										<div class="bgline"></div>
 									</div>
@@ -48,7 +48,7 @@ export default {
 
    data(){
         return{
-            funciona : 'Cómo funciona',
+            funciona : 'Cómo funcionaaaaaa',
             empresario:'EMPRESARIO',
             edescription:'Recibe el préstamo que necesita para hacer crecer su negocio',
             prestamype:'PRESTAMYPE',
@@ -61,88 +61,89 @@ export default {
 }
 </script>
 <style lang="scss">
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
+  @import 'node_modules/bootstrap/scss/bootstrap.scss';
+      .line{
+          background-color: rgb(243, 239, 239);
+      }
 
-  .line{
-  background-color: rgb(243, 239, 239);
-  }
-  .minititle {
-   margin-top: 10px;
-   font-size: 30px;
-   font-weight: 450px;
-   margin-bottom:40px;
-  }
+      // .minititle{
+      //   // margin-top: 10px;
+      //   // font-size: 40px;
+      //   // font-weight: 500px;
+      //   // margin-bottom:40px;
+      //    font-size: 20px;
+      //  }
 
-  .bgline {
-   height: 3px;
-   border-radius: 30%;
-   background: #000;
-   width: 20px;
-   margin: 0 auto;
-   margin-top: 30px;
-  }
-.flechabox {
-  position: absolute;
-  bottom: -15px;
-}
-.whitebg {
-  background: #fff
-}
+      .bgline {
+        height: 3px;
+        border-radius: 30%;
+        background: #000;
+        width: 20px;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      .flechabox {
+        position: absolute;
+        bottom: -15px;
+       }
+      .whitebg {
+        background: #fff
+      }
 
-.whitebg * {
-  color: #000
-}
-.boxfun,
-.boxtwo {
-    padding: 80px 0
-}
+      .whitebg * {
+        color: #000
+      }
+      .boxfun,.boxtwo {
+        padding: 80px 0
+      }
 
-.fotoemp,
-.fotoinv {
-    width: 80%
-}
-.soli {
-  padding: 0!important
-}
-.soli p {
-  font-size: 15px
-}
-.subtitle {
-  font-size: 20px;
-  font-weight: 800;
-  margin: 20px 0
-}
+      .fotoemp,
+      .fotoinv {
+        width: 80%
+      }
+      .soli {
+        padding: 0!important
+      }
+      .soli p {
+        font-size: 15px
+      }
+      .subtitle {
+        font-size: 20px;
+        font-weight: 800;
+         margin: 20px 0
+       }
 
-.des {
-  padding: 10px 40px;
-  position: relative
-}
-.flech {
-  display: none;
-  position: absolute;
-  top: 90%;
-  z-index: 100;
-  left: 0;
-  right: 0
-}
+      .des {
+        padding: 10px 40px;
+        position: relative
+      }
 
-.flech img {
-  width: 30px
-}
-.rel {
-  position: relative
-}
-.flecha {
-  width: 100%;
+        .flech {
+          display: none;
+          position: absolute;
+          top: 90%;
+          z-index: 100;
+          left: 0;
+          right: 0
+        }
 
-}
+       .flech img {
+          width: 30px
+        }
+       .rel {
+         position: relative
+         }
+        .flecha {
+         width: 100%;
+
+        }
 
 @media (max-width: 792px){
-   .minititle{
-				font-size: 20px;
-        margin-bottom: 25px;
-        padding: 0px 15px;
-  }
+  //  .minititle{
+	// 			font-size: 20px;
+  //       margin-bottom: 25px;
+  //       padding: 0px 15px;
+  // }
   .flecha{
 				display:none;
 		}

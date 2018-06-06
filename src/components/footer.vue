@@ -8,6 +8,7 @@
 							<img class="logof" src="https://www.prestamype.com/images/logo-prestamype-blanco.png">
 							<p style="margin-top:30px">
                <a href="/nosotros" target="_blank" style="color: #fff !important; border-bottom: 1px solid rgba(255,255,255,0.7); text-decoration: none !important; padding-bottom: 3px;">aquí</a>.</p>
+                <p> Prestamype es una marca de P2P Finance Consulting SAC, empresa registrada en la Superintendencia de Banca y Seguros (SBS – Resolución N° 03470). Más detalles <a href="/nosotros" target="_blank">aquí</a></p>
 							<div class="icons">
 								<div class="icon">
 									<div><img src="../assets/icono_direccion_footer.png"></div>
@@ -24,7 +25,7 @@
 							</div>
 						</div>
 						<div class="col-sm-3 foocol secondCol">
-							<h4>MAPA DEL SITIO</h4>
+							<h4>{{mapa}}</h4>
 							<div class="info"><a href="/prestamos">Pide tu Préstamo</a></div>
 							<div><a href="/invertir">Quiero Invertir</a></div>
 							<div><a href="/nosotros">Nosotros</a></div>
@@ -65,21 +66,19 @@ export default {
 <style>
    .greybg{
 		background:#2D2D2D;
+   }
 
-}
-.greybg *{
+  .greybg *{
 		text-align: left;
 		color:white;
-
-}
+   }
 
 .foocol{
-		font-weight: 600;
-
+		font-weight: 500px;
 }
 
 .foocol h4{
-		font-weight: 800;
+		font-weight: 800px;
 
 }
 .info{

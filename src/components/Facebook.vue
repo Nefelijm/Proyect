@@ -25,10 +25,10 @@ export default {
 
 
   .bgfacebook{
-        height:230px;
-        position: relative;
-        text-align: center;
-        background-image: url("../assets/separador.jpg");
+    height:230px;
+    position: relative;
+    text-align: center;
+    background-image: url("../assets/separador.jpg");
   }
  .faacebook {
   width: 53px;

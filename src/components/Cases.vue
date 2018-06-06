@@ -28,7 +28,7 @@ export default {
 }
 </script>
 <style lang="scss">
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
+ @import 'node_modules/bootstrap/scss/bootstrap.scss';
    .fondotwo{
 		color: #fff !important;
    }
@@ -39,7 +39,7 @@ export default {
 				padding:50px 0;
     }
     .minititle{
-				font-size: 20px;
+				font-size: 35px;
         margin-bottom: 25px;
         padding: 0px 15px;
     }
@@ -54,17 +54,25 @@ export default {
     .descrip{
 		margin:50px auto;
 		max-width: 850px;
-		font-size: 25px;
+		font-size: 28px;
 		font-style: italic;
+    }
 
-}
-.person{
-		font-size: 23px;
+   .person{
+		font-size: 24px;
 		font-weight: 700;
 		margin-bottom: 30px;
-		line-height: 1.3;
+		line-height: 1.7;
+   }
 
-}
+   @media (max-width: 792px) {
+      .descrip{
+		    margin:45px auto;
+		    max-width: 800px;
+		    font-size: 23px;
+		    font-style: italic;
+      }
+   }
 
 </style>
 
